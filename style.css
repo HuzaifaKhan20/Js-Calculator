@@ -1,0 +1,58 @@
+.xkmain{
+    border: 10px solid  rgb(0, 0, 0);
+    width: 200px;
+    margin: 100px auto;
+}
+
+.xkp1{
+    font-size: 70px !important;
+    background-color: azure;
+    height: 85px;
+    margin-top: 70px;
+}
+
+*{
+    background-color: #ad64f1;
+    font-size: 16px !important;
+    text-align: center;
+    margin: 0%;
+}
+
+.xkresult{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.xkclearBtn{
+    
+    background-color: rgb(0, 0, 0);
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+    margin-top: 15px;
+    color: white;
+
+
+}
+
+.xkbtn{
+    background-color:  rgb(124, 22, 192);
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+    margin-top: 15px;
+    color: white;
+}
+
+.xkbtn1{
+    background-color:rgb(0, 0, 0);
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+    margin-top: 15px;
+    color: white;
+}

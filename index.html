@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="xkdiv1">
+            <p class="xkp1">The Calculator</p>
+        </div>
+        <div class="xkmain">
+            <div>
+                <input id="xkresult" class="xkresult" type="text">
+            </div>
+
+
+
+            <div>
+                <button class="xkbtn" onclick="getNumber('7')">7</button>
+                <button class="xkbtn" onclick="getNumber('8')">8</button>
+                <button class="xkbtn" onclick="getNumber('9')">9</button>
+                <button class="xkbtn" onclick="getNumber('*')">X</button>
+            </div>
+
+            <div>
+                <button class="xkbtn" onclick="getNumber('4')">4</button>
+                <button class="xkbtn" onclick="getNumber('5')">5</button>
+                <button class="xkbtn" onclick="getNumber('6')">6</button>
+                <button class="xkbtn" onclick="getNumber('-')">-</button>
+            </div>
+
+            <div>
+                <button class="xkbtn" onclick="getNumber('1')">1</button>
+                <button class="xkbtn" onclick="getNumber('2')">2</button>
+                <button class="xkbtn" onclick="getNumber('3')">3</button>
+                <button class="xkbtn" onclick="getNumber('+')">+</button>
+            </div>
+
+            <div>
+                <button class="xkbtn" onclick="getNumber('0')">0</button>
+                <button class="xkbtn" onclick="getNumber('/')">/</button>
+
+
+                <button class="xkclearBtn" onclick="clearResult()">C</button>
+                <button class="xkbtn1" onclick="getResult()">=</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
